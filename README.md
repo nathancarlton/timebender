@@ -2,8 +2,6 @@
 
 A Kontakt KSP script for real-time MIDI timing manipulation using pitch bend control.
 
-![TimeBender Interface](path/to/screenshot.png)
-
 ## Overview
 
 TimeBender allows you to dynamically shift MIDI note timing forward (decel) or backward (accel) during playback by using your pitch bend wheel. This creates expressive timing variations perfect for humanizing performances, creating ritardandos, or compensating for latency issues in orchestral libraries.
@@ -29,8 +27,8 @@ Range: +/- 100ms to +/- 250ms.
 ## Installation
 
 1. Download the latest release
-2. Copy the `TimeBender` folder (containing images) to your ~Documents/Native Instruments/Kontakt/pictures directory
-3. Copy the `.ksp` script into Kontakt's ~Documents/Native Instruments/Kontakt/presets/Multiscripts folder
+2. Copy the `TimeBender` folder (containing image and text files) to your ~Documents/Native Instruments/Kontakt/pictures directory
+3. Copy the `.nkp` script into Kontakt's ~Documents/Native Instruments/Kontakt/presets/Multiscripts folder
 4. Add Kontakt to a DAW track, click the KSP button, choose Preset > User > TimeBender
 
 ## Setup
@@ -50,9 +48,10 @@ Range: +/- 100ms to +/- 250ms.
 - **Center position** = notes play on time (with track delay compensation)
 - **Max forward/right** = notes delayed by full predelay amount
 - **Max back/left** = notes rushed by full predelay amount
-- Use automation to create tempo rubato effects
+- Use automation to create tempo rubato effects, or correct individual note timings
+- Great for notation (quantized MIDI) with expressive performance
 - Works with both monophonic and polyphonic playing
-- The script automatically disables when transport is stopped for zero-latency live performance
+- The script's delay automatically disables when transport is stopped for zero-latency live performance
 
 ## Technical Details
 
