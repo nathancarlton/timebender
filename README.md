@@ -2,6 +2,9 @@
 
 A Kontakt KSP script for real-time MIDI timing manipulation using pitch bend control.
 
+![TimeBender_KSP](https://github.com/user-attachments/assets/15cacee3-5f17-49e3-bd0f-61e2216da92c)
+
+
 ## Overview
 
 TimeBender allows you to dynamically shift MIDI note timing forward (decel) or backward (accel) during playback by using your pitch bend wheel. This creates expressive timing variations perfect for humanizing performances, creating ritardandos, or compensating for latency issues in orchestral libraries.
